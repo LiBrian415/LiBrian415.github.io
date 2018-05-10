@@ -85,9 +85,13 @@ body{
   margin-top:20px;
   border:2px solid;
   border-color:#ff6f69;
+  width:196px;
+  height:196px;
 }
 
 .text{
+  font-size: 0.85em;
+  margin-top:20px;
   padding:0 5px 0 5px;
   border:2px dotted;
   border-color:#ff6f69;
