@@ -1,5 +1,5 @@
 body{
-  background-color:#ffeead;
+  background-color:#f5f5f5;
   color:#505050;
   font-family: 'Montserrat', sans-serif;
 }
@@ -10,7 +10,7 @@ body{
   width: 620px;
   height: 925px;
   border:1.5px solid;
-  border-color:#ffffcc;
+  border-color:#ffffff;
   padding: 10px;
 }
 
