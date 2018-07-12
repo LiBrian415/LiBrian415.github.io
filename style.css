@@ -8,7 +8,7 @@ body{
   background-color:##ffeead;
   margin: 0 auto;
   width: 620px;
-  height: 925px;
+  height: 1000px;
   border:1.5px solid;
   border-color:#ffffff;
   padding: 10px;
@@ -90,7 +90,7 @@ body{
 }
 
 .text{
-  font-size: 0.85em;
+  font-size: 0.80em;
   margin-top:20px;
   padding:0 5px 0 5px;
   border:2px dotted;
