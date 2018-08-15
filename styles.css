@@ -1,0 +1,17 @@
+.font-playfair {
+  font-family: 'Playfair Display', serif;
+}
+
+.font-oswald {
+  font-family: 'Oswald', sans-serif;
+}
+
+.image{
+  margin: auto;
+  width: 100%;
+  height: width;
+}
+
+.border-10 {
+    border-width:10px !important;
+}
