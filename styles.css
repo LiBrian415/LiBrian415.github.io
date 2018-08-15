@@ -6,6 +6,11 @@
   font-family: 'Oswald', sans-serif;
 }
 
+.about{
+  margin: auto;
+  width:275px;
+}
+
 .image{
   margin: auto;
   width: 100%;
