@@ -13,12 +13,13 @@
 </head>
 
 <body class = "bg-white">
-  <div class = "container mt-5 mb-5">
-    <h1 class = "text-center font-oswald">BRIAN LI</h1>
-    <hr width="50%"> </hr>
-    <h5 class = "text-center font-oswald">A look into an aspiring <br> software engineer</h5>
-    <hr width="50%"> </hr>
-
+  <article class = "container mt-5 mb-5">
+    <header>
+      <h1 class = "text-center font-oswald">BRIAN LI</h1>
+      <hr width="50%"> </hr>
+      <h5 class = "text-center font-oswald">A look into an aspiring <br> software engineer</h5>
+      <hr width="50%"> </hr>
+    </header>
       <div class = "about">
         <p class = "font-playfair text-justify" >
           SAN FRANCISCO, Aug. 18-I am a University of California, San Diego
@@ -35,10 +36,10 @@
           and studying algorithms on my own.
         </p>
       </div>
-  </div>
+  </article>
 
 <!-- Projects -->
-  <div class = "container mt-5 mb-5">
+  <section class = "container mt-5 mb-5">
 
     <h3 class = "text-center font-oswald"> PROJECTS: </h3>
     <hr width="50%"> </hr>
@@ -47,49 +48,42 @@
     </h5>
     <hr width="50%"> </hr>
 
-    <div class = "row">
-      <div class = "col-md-4 offset-md-2">
-        <h4 class = "text-center font-oswald shadow"> Split </h4>
-        <img src = "image/projects/splitv02.png" alt = "split" class = "image border border-black border-10">
-        <p class = "font-playfair">
-          //An ios app designed to tackle the
-          problem of spliting a bill evenly with the consideration of tips.
-          <br>
-          <br>
-          //<a href = "https://github.com/LiBrian415/Split" target = "_blank"> GitHub </a>
-        </p>
-      </div>
-      <div class = "col-md-4">
-        <h4 class = "text-center font-oswald shadow"> Budget </h4>
-        <img src = "image/projects/expense.png" alt = "budget" class = "image border border-black border-10">
-        <p class = "font-playfair">
-          //A webapp designed to track expenses and provide monthly
-          and daily totals while incorporating login, registration,
-          and email features.
-          <br>
-          <br>
-          //<a href = "https://github.com/LiBrian415/Expense" target="_blank"> GitHub </a>
-        </p>
-      </div>
+    <div class = "grid justify-content-center">
+      <h4 class = "text-center font-oswald border border-dark my-auto" id="title1"> Split </h4>
+      <img src = "image/projects/splitv02.png" alt = "split" class = "image border border-dark" id="img1">
+      <p class = "font-playfair" id="desc1">
+        //An ios app designed to tackle the
+        problem of spliting a bill evenly with the consideration of tips.
+        <br>
+        <br>
+        //<a href = "https://github.com/LiBrian415/Split" target = "_blank"> GitHub </a>
+      </p>
+
+      <h4 class = "text-center font-oswald border border-dark my-auto" id="title2"> Budget </h4>
+      <img src = "image/projects/expense.png" alt = "budget" class = "image border border-dark" id="img2">
+      <p class = "font-playfair" id="desc2">
+        //A webapp designed to track expenses and provide monthly
+        and daily totals while incorporating login, registration,
+        and email features.
+        <br>
+        <br>
+        //<a href = "https://github.com/LiBrian415/Expense" target="_blank"> GitHub </a>
+      </p>
+
+      <h4 class = "text-center font-oswald border border-dark my-auto" id="title3"> Tic Tac Toe </h4>
+      <img src = "image/projects/tic-tac-toe.png" alt = "tic-tac-toe" class = "image border border-dark" id="img3">
+      <p class = "font-playfair" id="desc3">
+        //A recreation my highschool AP CSP tictactoe project
+        that allowed the computer to determine moves with the use of weighted values.
+        <br>
+        <br>
+      </p>
     </div>
 
-    <div class = "row">
-      <div class = "col-md-4 offset-md-2">
-        <h4 class = "text-center font-oswald shadow"> Tic Tac Toe </h4>
-        <img src = "image/projects/tic-tac-toe.png" alt = "tic-tac-toe" class = "image border border-black border-10">
-        <p class = "font-playfair">
-          //A recreation my highschool AP CSP tictactoe project
-          that allowed the computer to determine moves with the use of weighted values.
-          <br>
-          <br>
-        </p>
-      </div>
-    </div>
-
-  </div>
+  </section>
 
 <!-- Work -->
-  <div class = "container mt-5 mb-5">
+  <section class = "container mt-5 mb-5">
 
     <h3 class = "text-center font-oswald"> WORK: </h3>
     <hr width="50%"></hr>
@@ -97,10 +91,10 @@
     <hr width="50%"></hr>
 
     </div>
-  </div>
+  </section>
 
 <!-- Contact -->
-  <div class = "container mt-5 mb-5">
+  <footer class = "container mt-5 mb-5">
 
     <h3 class = "text-center font-oswald"> CONTACT: </h3>
     <hr width = "50%"></hr>
@@ -112,6 +106,6 @@
           //<a href = "https://www.linkedin.com/in/librian415/" target="_blank"> https://www.linkedin.com/in/librian415/ </a> <br>
       </div>
     </div>
-  </div>
+  </footer>
 </body>
 </html>

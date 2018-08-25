@@ -13,10 +13,83 @@
 
 .image{
   margin: auto;
-  width: 100%;
-  height: width;
+  width: 275px;
+  height: 275px;
 }
 
-.border-10 {
-    border-width:10px !important;
+.my-auto{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#title1 {
+  grid-area: name1;
+}
+#title2 {
+  grid-area: name2;
+}
+#title3 {
+  grid-area: name3;
+}
+
+#img1 {
+  grid-area: image1;
+}
+#img2 {
+  grid-area: image2;
+}
+#img3 {
+  grid-area: image3;
+}
+
+#desc1 {
+  grid-area: desc1;
+}
+#desc2 {
+  grid-area: desc2;
+}
+#desc3 {
+  grid-area: desc3;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 275px;
+  grid-template-rows: repeat(3, 50px 275px auto);
+  grid-column-gap: 50px;
+  grid-template-areas:
+    "name1"
+    "image1"
+    "desc1"
+    "name2"
+    "image2"
+    "desc2"
+    "name3"
+    "image3"
+    "desc3";
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: 275px 275px;
+    grid-template-rows: repeat(2, 50px 275px auto);
+    grid-template-areas:
+      "name1 name2"
+      "image1 image2"
+      "desc1 desc2"
+      "name3 ."
+      "image3 ."
+      "desc3 .";
+  }
+}
+
+@media (min-width: 992px) {
+  .grid {
+    grid-template-columns: 275px 275px 275px;
+    grid-template-rows: 50px 275px auto;
+    grid-template-areas:
+      "name1 name2 name3"
+      "image1 image2 image3"
+      "desc1 desc2 desc3";
+  }
 }
