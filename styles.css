@@ -31,6 +31,9 @@
 #title3 {
   grid-area: name3;
 }
+#title4 {
+  grid-area: name4;
+}
 
 #img1 {
   grid-area: image1;
@@ -41,6 +44,9 @@
 #img3 {
   grid-area: image3;
 }
+#img4 {
+  grid-area: image4;
+}
 
 #desc1 {
   grid-area: desc1;
@@ -50,6 +56,9 @@
 }
 #desc3 {
   grid-area: desc3;
+}
+#desc4 {
+  grid-area: desc4;
 }
 
 .grid {
@@ -66,7 +75,10 @@
     "desc2"
     "name3"
     "image3"
-    "desc3";
+    "desc3"
+    "name4"
+    "image4"
+    "desc4";
 }
 
 @media (min-width: 768px) {
@@ -77,9 +89,9 @@
       "name1 name2"
       "image1 image2"
       "desc1 desc2"
-      "name3 ."
-      "image3 ."
-      "desc3 .";
+      "name3 name4"
+      "image3 image4"
+      "desc3 image4";
   }
 }
 
@@ -90,6 +102,9 @@
     grid-template-areas:
       "name1 name2 name3"
       "image1 image2 image3"
-      "desc1 desc2 desc3";
+      "desc1 desc2 desc3"
+      "name4 . ."
+      "image4 . ."
+      "desc4 . .";
   }
 }
