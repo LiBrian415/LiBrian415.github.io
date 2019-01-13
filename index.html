@@ -3,8 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
@@ -13,14 +15,40 @@
 </head>
 
 <body class = "bg-white">
-  <article class = "container mt-5 mb-5">
+  <div class="bg-white fixed-top" style="height:25px; width:100%;"></div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top container rounded border mt-3 border-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" style="padding-left:150px; padding-right:150px;" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="#brian"> About <a>
+        <a class="nav-item nav-link" href="#education"> Education</a>
+        <a class="nav-item nav-link" href="#work">Work Experience</a>
+        <a class="nav-item nav-link" href="#project">Projects</a>
+        <a class="nav-item nav-link" href="#cont">Contact</a>
+      </div>
+      <div class="navbar-nav ml-auto">
+        <a class="nav-item nav-link" href="image/resume.pdf" target="_blank"> Resume <a>
+      </div>
+    </div>
+  </nav>
+  <article class = "container mb-5" style="padding-top:150px;" id="brian">
     <header>
-      <h1 class = "text-center font-oswald">BRIAN LI</h1>
+      <h1 class = "text-center font-oswald">Hi, I'm Brian Li.</h1>
       <hr width="50%"> </hr>
       <h5 class = "text-center font-oswald">A look into an aspiring <br> software engineer</h5>
       <hr width="50%"> </hr>
     </header>
       <div class = "about">
+        <p class = "font-playfair text-justify">
+          I'm a sophomore pursuing a <b>BS</b> in <b>Computer Science</b> at <b>UC San Diego</b>, expected to graduate in March 2021.
+          <br>
+          <br>
+          My goals are to learn as much as possible from my experiences and interactions with others, and leave a positive impact
+          with my work.
+        </p>
+        <!--
         <p class = "font-playfair text-justify" >
           La Jolla, Oct. 04-I am a University of California, San Diego
           student studying Computer Science. I’m looking for opportunities to diversify
@@ -36,17 +64,45 @@
           Furthermore, I've been studying algorithms and data structures as I
           plan to attend some programming competitions.
         </p>
+      -->
       </div>
   </article>
 
+<!-- Education -->
+  <section class = "container mb-5" style="padding-top:75px;" id="education">
+     <h3 class = "text-center font-oswald"> EDUCATION: </h3>
+     <hr width="50%"> </hr>
+
+     <div class = "gridE justify-content-center">
+       <img src= "image/logos/UCSD_logo.png" alt = "UCSD" style="height: 100%; width: 100%;" id="school">
+       <p class = "font-playfair" id="schooldesc">
+         <br>
+          <b>UC San Diego</b>
+          <br>
+          <br>
+          BS Computer Science '21
+          <br>
+          Cumulative Undergraduate GPA: 4.0
+          <br>
+          Major Undergraduate GPA: 4.0
+       </p>
+     </div>
+  </section>
+  
+<!-- Work -->
+  <section class = "container mb-5" style="padding-top:75px;" id = "work">
+
+    <h3 class = "text-center font-oswald"> WORK EXPERIENCE: </h3>
+    <hr width="50%"></hr>
+    <h5 class = "text-center font-oswald"> ///Currently Under Construction///<h5>
+
+    </div>
+  </section>
+
 <!-- Projects -->
-  <section class = "container mt-5 mb-5">
+  <section class = "container mb-5" style="padding-top:75px;" id="project">
 
     <h3 class = "text-center font-oswald"> PROJECTS: </h3>
-    <hr width="50%"> </hr>
-    <h5 class = "text-center font-oswald"> A reverse chronological collection of <br>
-      my latest curiosities
-    </h5>
     <hr width="50%"> </hr>
 
     <div class = "grid justify-content-center">
@@ -95,40 +151,30 @@
       <img src = "image/projects/tic-tac-toe.png" alt = "tic-tac-toe" class =
       "image border border-dark" id="img4">
       <p class = "font-playfair" id="desc4">
-        //A recreation my highschool AP CSP tictactoe project
-        that allowed the computer to determine moves with the use of weighted values.
+        //My AP CSP exam project that utilized minimax to allow the computer 
+        to determine optimal moves
         <br>
         <br>
-        // Languages: HTML, CSS, Javascript
+        // Languages: Lua
       </p>
     </div>
 
   </section>
 
-<!-- Work -->
-  <section class = "container mt-5 mb-5">
-
-    <h3 class = "text-center font-oswald"> WORK: </h3>
-    <hr width="50%"></hr>
-    <h5 class = "text-center font-oswald"> ///Currently Under Construction///<h5>
-    <hr width="50%"></hr>
-
-    </div>
-  </section>
 
 <!-- Contact -->
-  <footer class = "container mt-5 mb-5">
-
+  <section class = "container mb-5" style="padding-top:75px;" id="cont">
     <h3 class = "text-center font-oswald"> CONTACT: </h3>
     <hr width = "50%"></hr>
 
     <div class = "row">
       <div class = "col-md-5 offset-md-4">
         <p class = "text-align font-oswald">
+          //<a href = "mailto:librian415@gmail.com" target="_blank"> librian415@gmail.com </a> <br>
           //<a href = "https://github.com/LiBrian415" target="_blank"> https://github.com/LiBrian415 </a> <br>
           //<a href = "https://www.linkedin.com/in/librian415/" target="_blank"> https://www.linkedin.com/in/librian415/ </a> <br>
       </div>
     </div>
-  </footer>
+  </section>
 </body>
 </html>
