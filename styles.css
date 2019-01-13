@@ -66,7 +66,7 @@
   grid-template-columns: 275px;
   grid-template-rows: 113px auto;
   grid-template-areas:
-    "school"
+    "schoolimg"
     "schooldesc";
 }
 
@@ -95,7 +95,7 @@
     grid-template-columns: 600px;
     grid-template-rows: 113px;
     grid-template-areas:
-      "school"
+      "schoolimg"
       "schooldesc";
   }
   .grid {
