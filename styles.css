@@ -110,18 +110,3 @@
       "desc3 desc4";
   }
 }
-/*
-@media (min-width: 992px) {
-  .grid {
-    grid-template-columns: 275px 275px 275px;
-    grid-template-rows: repeat(2, 50px 275px auto);
-    grid-template-areas:
-      "name1 name2 name3"
-      "image1 image2 image3"
-      "desc1 desc2 desc3"
-      "name4 . ."
-      "image4 . ."
-      "desc4 . .";
-  }
-}
-*/
