@@ -70,6 +70,17 @@
     "schooldesc";
 }
 
+.gridW {
+  display: grid;
+  grid-template-columns: 275px;
+  grid-template-rows: 200px auto 125px auto;
+  grid-template-areas:
+    "dropboximg"
+    "dropboxdesc"
+    "linkedinimg"
+    "linkedindesc";
+}
+
 .grid {
   display: grid;
   grid-template-columns: 275px;
@@ -93,10 +104,19 @@
 @media (min-width: 768px) {
   .gridE {
     grid-template-columns: 600px;
-    grid-template-rows: 113px;
+    grid-template-rows: 113px auto;
     grid-template-areas:
       "schoolimg"
       "schooldesc";
+  }
+  .gridW {
+    grid-template-columns: 600px;
+    grid-template-rows: 200px auto 125px auto;
+    grid-template-areas:
+      "dropboximg"
+      "dropboxdesc"
+      "linkedinimg"
+      "linkedindesc";
   }
   .grid {
     grid-template-columns: 275px 275px;
