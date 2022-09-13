@@ -1,198 +1,54 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Personal Website">
+    <meta name="author" content="Brian Li">
 
-  <title> Brian Li </title>
-</head>
+    <title>Brian Li</title>
 
-<body class = "bg-white">
-  <div class="bg-white fixed-top" style="height:25px; width:100%;"></div>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top container rounded border mt-3 border-dark">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" style="padding-left:150px; padding-right:150px;" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-item nav-link" href="#brian"> About <a>
-        <a class="nav-item nav-link" href="#education"> Education</a>
-        <a class="nav-item nav-link" href="#work">Work Experience</a>
-        <a class="nav-item nav-link" href="#project">Projects</a>
-        <a class="nav-item nav-link" href="#cont">Contact</a>
-      </div>
-      <div class="navbar-nav ml-auto">
-        <a class="nav-item nav-link" href="resume.pdf" target="_blank"> Resume <a>
-      </div>
-    </div>
-  </nav>
-  <article class = "container mb-5" style="padding-top:150px;" id="brian">
-    <header>
-      <h1 class = "text-center font-oswald">Hi, I'm Brian Li.</h1>
-      <hr width="50%"> </hr>
-      <h5 class = "text-center font-oswald">A look into an aspiring <br> software engineer</h5>
-      <hr width="50%"> </hr>
-    </header>
-      <div class = "about">
-        <p class = "font-playfair text-justify">
-          I'm a senior pursuing a <b>BS</b> in <b>Computer Science</b> at <b>UC
-          San Diego</b>, expected to graduate in June 2021. Afterwards, I plan
-          to pursue a MS in Computer Science.
-          <br>
-          <br>
-          My goals are to learn as much as possible from my experiences and interactions with others, and leave a positive impact
-          with my work.
-        </p>
-        <!--
-        <p class = "font-playfair text-justify" >
-          La Jolla, Oct. 04-I am a University of California, San Diego
-          student studying Computer Science. I’m looking for opportunities to diversify
-          and refine my skillset. From tackling my fear of failure to
-          learning new technologies, I’ve developed an interest in challenging
-          myself. So I’ve engrained this idea into my lifestyle, and created a
-          goal to learn one new thing in depth every quarter.
-        </p>
-        <p class = "font-playfair text-justify">
-          What am I up to right now? Currently, I'm interested in backend
-          development. In addition to working on projects, I've been learning
-          more about scalability and plan to learn about cloud-based hosting.
-          Furthermore, I've been studying algorithms and data structures as I
-          plan to attend some programming competitions.
-        </p>
-      -->
-      </div>
-  </article>
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 
-<!-- Education -->
-  <section class = "container mb-5" style="padding-top:75px;" id="education">
-     <h3 class = "text-center font-oswald"> EDUCATION: </h3>
-     <hr width="50%"> </hr>
 
-     <div class = "gridE justify-content-center">
-       <img src= "image/logos/UCSD_logo.png" alt = "UCSD" style="height: 100%; width: 100%;" id="schoolimg">
-       <p class = "font-playfair" id="schooldesc">
-         <br>
-          <b>UC San Diego</b>
-          <br>
-          <br>
-          BS Computer Science '21
-          <br>
-          Cumulative Undergraduate GPA: 4.0
-          <br>
-          Major Undergraduate GPA: 4.0
-       </p>
-     </div>
-  </section>
-  
-<!-- Work -->
-  <section class = "container mb-5" style="padding-top:75px;" id = "work">
+    <!-- Custom styles for this template -->
+    <link href="cover.css" rel="stylesheet">
+  </head>
 
-    <h3 class = "text-center font-oswald"> WORK EXPERIENCE: </h3>
-    <hr width="50%"></hr>
+  <body class="text-center">
 
-    <div class = "gridW justify-content-center">
-       <img src= "image/logos/Dropbox_logo.png" alt = "Dropbox" style="height: 100%; width: 100%;" id="dropboximg">
-       <p class = "font-playfair" id="dropboxdesc">
-         <br>
-          <b>Software Engineer Intern</b>
-          <br>
-          <br>
-          June 2020 - September 2020
-       </p>
-       <img src= "image/logos/Linkedin_logo.png" alt = "LinkedIn" style="height: 100%; width: 100%;" id="linkedinimg">
-       <p class = "font-playfair" id="linkedindesc">
-         <br>
-          <b>Software Engineer Intern</b>
-          <br>
-          <br>
-          September 2019 - December 2020
-       </p>
-     </div>
-  </section>
+    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+      <header class="masthead mb-auto">
+        <div class="inner">
+          <!--<h3 class="masthead-brand">Brian Li</h3>-->
+          <nav class="nav nav-masthead justify-content-center">
+            <a class="nav-link active" href="resume.pdf">Resume</a>
+          </nav>
+        </div>
+      </header>
 
-<!-- Projects -->
-  <section class = "container mb-5" style="padding-top:75px;" id="project">
+      <main role="main" class="inner cover">
+        <h1 class="cover-heading">Brian Li</h1>
+        <p class="lead">Software Engineer - San Francisco Bay Area</p>
+      </main>
 
-    <h3 class = "text-center font-oswald"> PROJECTS: </h3>
-    <hr width="50%"> </hr>
-
-    <div class = "grid justify-content-center">
-      <h4 class = "text-center font-oswald border border-dark my-auto"
-          id="title1"> AlertSD </h4>
-      <img src = "image/projects/alertsd.png" alt = "split" class = "image border border-dark" id="img1">
-      <p class = "font-playfair" id="desc1">
-        //A web application designed help students spread awareness of current
-        events occuring on-campus.
-        <br>
-        <br>
-        // Languages: Python, Javascript, HTML, CSS
-        <br>
-        // Frameworks: Django, DjangoRestFramework, React, Redux
-      </p>
-
-      <h4 class = "text-center font-oswald border border-dark my-auto"
-          id="title2"> Split </h4>
-      <img src = "image/projects/splitv02.png" alt = "split" class = "image
-      border border-dark" id="img2">
-      <p class = "font-playfair" id="desc2">
-        //An ios app designed to tackle the
-        problem of spliting a bill evenly with the consideration of tips.
-        <br>
-        <br>
-        // Languages: Swift
-      </p>
-
-      <h4 class = "text-center font-oswald border border-dark my-auto"
-          id="title3"> Expense </h4>
-      <img src = "image/projects/expense.png" alt = "budget" class = "image
-      border border-dark" id="img3">
-      <p class = "font-playfair" id="desc3">
-        //A webapp designed to track expenses and provide monthly
-        and daily totals while incorporating login, registration,
-        and email features.
-        <br>
-        <br>
-        // Languages: Python, HTML, CSS
-        <br>
-        // Frameworks: Flask
-      </p>
-
-      <h4 class = "text-center font-oswald border border-dark my-auto"
-          id="title4"> Tic Tac Toe </h4>
-      <img src = "image/projects/tic-tac-toe.png" alt = "tic-tac-toe" class =
-      "image border border-dark" id="img4">
-      <p class = "font-playfair" id="desc4">
-        //My AP CSP exam project that utilized minimax to allow the computer 
-        to determine optimal moves
-        <br>
-        <br>
-        // Languages: Lua
-      </p>
+      <footer class="mastfoot mt-auto">
+        <div class="inner">
+          <a href="mailto:librian415@gmail.com"><img class="icon" alt="email" src="image/icons/gmail.png"></a>
+          <a href="https://github.com/LiBrian415"><img class="icon" alt="email" src="image/icons/github.png"></a>
+          <a href="https://www.linkedin.com/in/librian415/"><img class="icon" alt="email" src="image/icons/linkedin.png"></a>
+        </div>
+      </footer>
     </div>
 
-  </section>
 
-
-<!-- Contact -->
-  <section class = "container mb-5" style="padding-top:75px;" id="cont">
-    <h3 class = "text-center font-oswald"> CONTACT: </h3>
-    <hr width = "50%"></hr>
-
-    <div class = "row">
-      <div class = "col-md-5 offset-md-4">
-        <p class = "text-align font-oswald">
-          //<a href = "mailto:librian415@gmail.com" target="_blank"> librian415@gmail.com </a> <br>
-          //<a href = "https://github.com/LiBrian415" target="_blank"> https://github.com/LiBrian415 </a> <br>
-          //<a href = "https://www.linkedin.com/in/librian415/" target="_blank"> https://www.linkedin.com/in/librian415/ </a> <br>
-      </div>
-    </div>
-  </section>
-</body>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+  </body>
 </html>
+
